@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: bisque;
     width: 600px;
-    border: 1px solid black;
+    height: 200;
     min-height: 100%;
     box-sizing: border-box;
 
@@ -13,9 +13,12 @@ body {
     text-align: center;
 }
 
-.personagens-icon , .DB-Icon {
+.personagens-icon,
+.DB-Icon {
     margin: 10px;
 }
+
+/*---*/
 
 .pagina-inicial-images {
     position: relative;
@@ -49,44 +52,171 @@ body {
     position: absolute;
     z-index: 5;
     height: 500px;
-    right: -40px;   
+    right: -40px;
     bottom: 1.5px;
 }
 
+/*---*/
+
 .whis {
     width: 600px;
-    min-height: 25vh;
+    height: 200px;
     background-color: rgb(150, 255, 220);
+    position: relative;
 }
+
+.background-whis {
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.fotodowhis {
+    position: absolute;
+    height: 170px;
+    top: 15px;
+    left: 15px;
+}
+
+.descriçãodowhis {
+    position: absolute;
+    height: 200px;
+}
+
+/*---*/
 
 .mai {
     width: 600px;
-    min-height: 25vh;
-    background-color: rgb(74, 255, 195);
+    height: 200px;
+    background-color: rgb(150, 255, 220);
+    position: relative;
 }
+
+.background-mai {
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.foto-da-mai {
+    position: absolute;
+    height: 170px;
+    top: 15px;
+    left: 15px;
+}
+
+.descrição-da-mai {
+    position: absolute;
+    height: 200px;
+}
+
+/*---*/
 
 .vegeta {
     width: 600px;
-    min-height: 25vh;
+    height: 200px;
     background-color: rgb(150, 255, 220);
+    position: relative;
 }
+
+.background-vegeta {
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.foto-vegeta {
+    position: absolute;
+    height: 170px;
+    top: 15px;
+    left: 15px;
+}
+
+.descrição-Vegeta {
+    position: absolute;
+    height: 200px;
+}
+
+/*---*/
 
 .bulma {
     width: 600px;
-    min-height: 25vh;
-    background-color: rgb(74, 255, 195);
+    height: 200px;
+    background-color: rgb(150, 255, 220);
+    position: relative;
 }
+
+.bulma-descricao {
+    position: absolute;
+    height: 200px;
+}
+
+.bulma-perfil {
+    position: absolute;
+    height: 170px;
+    top: 15px;
+    left: 15px;
+}
+
+.fundo-bulma {
+    height: 200px;
+    width: 600px;
+    object-fit: cover;
+}
+
+/*---*/
 
 .dezoito {
     width: 600px;
-    min-height: 25vh;
+    height: 200px;
     background-color: rgb(150, 255, 220);
+    position: relative;
+}
+
+.fundo-18 {
+    height: 200px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.descricao-18 {
+    position: absolute;
+    height: 200px;
+}
+
+.foto-18 {
+    position: absolute;
+    height: 170px;
+    top: 15px;
+    left: 15px;
 }
 
 .beerus {
     width: 600px;
-    min-height: 25vh;
-    background-color: rgb(74, 255, 195);
+    height: 200px;
+    background-color: rgb(150, 255, 220);
+    position: relative;
+}
+
+.fundo-beerus {
+    height: 200px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.descricao-beerus {
+    position: absolute;
+    height: 200px;
+}
+
+.foto-beerus {
+    position: absolute;
+    height: 170px;
+    top: 15px;
+    left: 15px;
 }
 
 footer {
@@ -95,3 +225,4 @@ footer {
     text-align: center;
     margin: 20px 20px;
 }
+
