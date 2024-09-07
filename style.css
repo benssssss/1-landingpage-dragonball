@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+    width: 600px;
+    border: 1px solid black;
+    min-height: 100%;
+    box-sizing: border-box;
+
+}
+
+.topo {
+    text-align: center;
+}
+
+.personagens-icon , .DB-Icon {
+    margin: 10px;
+}
+
+.pagina-inicial-images {
+    position: relative;
+    height: 420px;
+}
+
+.fundo-pagina-incial {
+    height: 420px;
+    width: 100%;
+    position: absolute;
+}
+
+.goku-pagina-incial {
+    position: absolute;
+    z-index: 1;
+    height: 390px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.dragonball-superlogo {
+    position: absolute;
+    z-index: 1;
+    background-size: 100px;
+    height: 40px;
+    right: 20px;
+    bottom: 10px;
+}
+
+.texto-pagina-incial {
+    position: absolute;
+    z-index: 5;
+    height: 500px;
+    right: -40px;   
+    bottom: 1.5px;
+}
+
+.whis {
+    width: 600px;
+    min-height: 25vh;
+    background-color: rgb(150, 255, 220);
+}
+
+.mai {
+    width: 600px;
+    min-height: 25vh;
+    background-color: rgb(74, 255, 195);
+}
+
+.vegeta {
+    width: 600px;
+    min-height: 25vh;
+    background-color: rgb(150, 255, 220);
+}
+
+.bulma {
+    width: 600px;
+    min-height: 25vh;
+    background-color: rgb(74, 255, 195);
+}
+
+.dezoito {
+    width: 600px;
+    min-height: 25vh;
+    background-color: rgb(150, 255, 220);
+}
+
+.beerus {
+    width: 600px;
+    min-height: 25vh;
+    background-color: rgb(74, 255, 195);
+}
+
+footer {
+    display: inline;
+    height: 20px;
+    text-align: center;
+    margin: 20px 20px;
+}
