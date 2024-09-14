@@ -7,6 +7,7 @@
 ## Tecnologias utilizadas
 - HTML
 - CSS
+- Photoshop
 
 ## Aprendizados (CSS)
 - Maior compreensão sobre position e display 
